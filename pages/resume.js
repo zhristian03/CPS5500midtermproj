@@ -66,13 +66,7 @@ export default function Resume() {
       className="p-6 max-w-4xl mx-auto"
     >
       <h1 className="text-3xl font-bold mb-6 text-white text-center">Resume</h1>
-      <a
-        href="/resume.pdf"
-        target="_blank"
-        className="text-blue-400 underline mb-8 inline-block text-center w-full"
-      >
-        View or Download Resume (PDF)
-      </a>
+
 
       <div className="space-y-4">
         {sections.map((section, index) => {
